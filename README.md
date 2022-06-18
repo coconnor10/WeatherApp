@@ -4,7 +4,8 @@ This app is a weather dashboard that uses third part API to access weather data.
 
 ## Screenshot
 
-![Screenshot of Weather Dashboard](./assets/screenshot.png)
+![Screenshot of Weather Dashboard](./assets/screenshot1.png)
+![Screenshot of Weather Dashboard after searching a city](./assets/screenshot2.png)
 
 ## Links to Application
 

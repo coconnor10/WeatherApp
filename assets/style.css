@@ -19,7 +19,7 @@ p {
 
 /* classes */
 .card {
-  min-width: 300px;
+  min-width: 200px;
   background-color: rgb(90, 94, 110);
   margin: 20px;
   padding-left: 10px;
@@ -32,9 +32,10 @@ p {
 }
 
 .forecast {
-  height: 50vh;
+  height: 30vh;
   display: flex;
   flex-direction: row;
+  max-width: 60%;
 }
 
 .forecast-head {
@@ -66,7 +67,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 79%;
+  max-width: 60%;
 }
 
 .nav {
@@ -122,5 +123,13 @@ p {
 @media screen and (max-width: 910px) {
   main {
     flex-direction: column;
+    padding-left: 10%;
+  }
+  .forecast {
+    flex-direction: column;
+  }
+  .search-card {
+    width: 80%;
+    height: 30vh;
   }
 }
