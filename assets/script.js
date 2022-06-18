@@ -45,7 +45,7 @@ function getWeather() {
       )
         .then((response) => response.json())
         .then((data) => {
-          console.log(data);
+          //   console.log(data);
 
           var tempValue = data["current"]["temp"];
           var humidValue = data["current"]["humidity"];
@@ -89,7 +89,7 @@ function getWeather() {
             forecastWindEl.innerHTML = "Wind: " + forecastWindVal;
             forecastTempEl.innerHTML = "Temp: " + forecastTempVal;
             forecastDateEl.innerHTML = forecastDateVal;
-            console.log(forecastDateVal);
+            // console.log(forecastDateVal);
           }
         });
     });
